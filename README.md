@@ -62,11 +62,11 @@ https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 ### Executive Overview
 
-![Executive Overview](Images/Online%20Retail%20Sales%20Dashboard/Executive%20Overview.png)
+![Executive Overview](Images/Online%20Retail%20Sales%20Dashboard/Executive%20Summary.png)
 
 ### Customer Analysis
 
-![Customer Analysis](Images/Online%20Retail%20Sales%20Dashboard/Customer%20Analysis.png)
+![Customer Analysis](Images/Online%20Retail%20Sales%20Dashboard/Customer%20Overview.png)
 
 ### Product Performance
 
