@@ -1,49 +1,79 @@
-# Online Retail II Sales Dashboard – Power BI
+# 📊 Online Retail Sales Dashboard – Power BI
 
-## Overview
+An interactive **Power BI dashboard** developed to analyse online retail sales, customer behaviour, product performance, and geographical trends between **2009 and 2011**.
 
-This project presents an interactive Power BI dashboard built using the Online Retail II dataset. The dashboard provides insights into sales performance, customer behavior, product trends, and revenue generation to support data-driven business decisions.
+## Project Overview
+
+This project transforms raw retail transaction data into an interactive business intelligence report using **Power Query, DAX, and dimensional data modelling**.
+
+The report contains three dashboard pages:
+
+1. **Executive Overview**
+2. **Customer Analysis**
+3. **Product Performance**
+
+## Dashboard Features
+
+- Total Sales
+- Total Orders
+- Total Customers
+- Total Quantity Sold
+- Average Order Value
+- Monthly Sales Trends
+- Top and Bottom Products
+- Top Customers by Revenue
+- Country-level Sales Analysis
+- Interactive Year, Country, and Product filters
+- Page navigation between dashboards
+
+## Data Model
+
+A star-schema model was created using:
+
+- `FactSales`
+- `DimProduct`
+- `DimCustomer`
+- `DimDate`
+- `Measures Table`
+
+The two yearly worksheets were cleaned and appended into a single transaction-level fact table.
+
+## Tools and Technologies
+
+- Power BI Desktop
+- Power Query
+- DAX
+- Microsoft Excel
+- Star Schema Data Modelling
+- Data Visualisation
+- Business Intelligence
 
 ## Dataset
 
-**Source:** UCI Machine Learning Repository
+The project uses the **Online Retail II** dataset from the UCI Machine Learning Repository.
 
-Dataset Link: https://archive.ics.uci.edu/dataset/502/online+retail+ii
+The dataset contains more than one million transactions from a UK-based non-store online retailer between December 2009 and December 2011. It includes invoice, product, quantity, price, customer, date, and country information.
 
-The dataset contains transactional data from a UK-based online retail store covering two years of sales activities.
+Dataset link:
 
-## Key Features
+https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
-* Sales Performance Analysis
-* Revenue & Order Tracking
-* Customer Insights
-* Top Products Analysis
-* Monthly Sales Trends
-* Interactive Filters & Visualizations
+## Dashboard Preview
 
-## Tools & Technologies
+### Executive Overview
 
-* Power BI
-* Power Query
-* DAX
-* Excel
+![Executive Overview](Images/Online%20Retail%20Sales%20Dashboard/Executive%20Overview.png)
 
-## Dashboard Insights
+### Customer Analysis
 
-* Monitor total revenue and orders
-* Identify top-performing products
-* Analyze customer purchasing patterns
-* Track sales trends over time
-* Support business decision-making through data visualization
+![Customer Analysis](Images/Online%20Retail%20Sales%20Dashboard/Customer%20Analysis.png)
 
-## Project Objective
+### Product Performance
 
-To transform raw retail transaction data into meaningful business insights using interactive dashboards and data visualization techniques.
+![Product Performance](Images/Online%20Retail%20Sales%20Dashboard/Product%20Performance.png)
 
-## Author
+## Key DAX Measures
 
-Srija Biswas
-
-## License
-
-This project is intended for educational and portfolio purposes.
+```DAX
+Total Sales =
+SUM(FactSales[SalesAmount])
