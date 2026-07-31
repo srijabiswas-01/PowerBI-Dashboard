@@ -1,4 +1,4 @@
-# 📊 Online Retail Sales Dashboard – Power BI
+# Online Retail Sales Dashboard – Power BI
 
 An interactive **Power BI dashboard** developed to analyse online retail sales, customer behaviour, product performance, and geographical trends between **2009 and 2011**.
 
@@ -25,18 +25,6 @@ The report contains three dashboard pages:
 - Country-level Sales Analysis
 - Interactive Year, Country, and Product filters
 - Page navigation between dashboards
-
-## Data Model
-
-A star-schema model was created using:
-
-- `FactSales`
-- `DimProduct`
-- `DimCustomer`
-- `DimDate`
-- `Measures Table`
-
-The two yearly worksheets were cleaned and appended into a single transaction-level fact table.
 
 ## Tools and Technologies
 
@@ -71,9 +59,3 @@ https://archive.ics.uci.edu/dataset/502/online+retail+ii
 ### Product Performance
 
 ![Product Performance](Images/Online%20Retail%20Sales%20Dashboard/Product%20Performance.png)
-
-## Key DAX Measures
-
-```DAX
-Total Sales =
-SUM(FactSales[SalesAmount])
