@@ -1,10 +1,10 @@
-# 📊 Online Retail Sales Dashboard – Power BI
+# Online Retail Sales Dashboard – Power BI
 
 An interactive **Power BI Business Intelligence Dashboard** developed to analyse online retail sales performance, customer purchasing behaviour, product performance, sales forecasting, and geographical trends using the **Online Retail II** dataset.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the complete Business Intelligence workflow, from **data cleaning and transformation** to **interactive dashboard development** using **Power BI**.
 
@@ -20,9 +20,9 @@ The solution includes:
 
 ---
 
-## 📊 Dashboard Pages
+## Dashboard Pages
 
-### 1️⃣ Executive Overview
+### Executive Overview
 - Total Sales
 - Total Orders
 - Total Customers
@@ -33,21 +33,21 @@ The solution includes:
 - Top 10 Products by Sales
 - Interactive Filters
 
-### 2️⃣ Customer Overview
+### Customer Overview
 - Customer Distribution
 - Revenue by Customer
 - Sales by Country
 - Customer Purchase Behaviour
 - Customer Performance Analysis
 
-### 3️⃣ Product Performance
+### Product Performance
 - Product Revenue Analysis
 - Top & Bottom Selling Products
 - Product Sales Contribution
 - Quantity Sold by Product
 - Product Performance Insights
 
-### 4️⃣ Sales Forecasting
+### Sales Forecasting
 - Monthly Sales Forecast
 - Historical Sales Trend
 - Forecast Confidence Interval
@@ -56,7 +56,7 @@ The solution includes:
 
 ---
 
-## ⭐ Key Features
+## Key Features
 
 - Interactive KPI Cards
 - Sales Forecasting
@@ -71,7 +71,7 @@ The solution includes:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Microsoft Power BI Desktop
 - Power Query
@@ -83,7 +83,7 @@ The solution includes:
 
 ---
 
-## 🗂 Data Model
+## Data Model
 
 The dashboard follows a **Star Schema** consisting of:
 
@@ -111,19 +111,19 @@ https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 ### Executive Overview
 
-![Executive Overview](Images/OnlineRetailSalesDashboard/Executive%20Summary.png)
+![Executive Overview](Images/Online%20Retail%20Sales%20Dashboard/Executive%20Summary.png)
 
 ### Customer Overview
 
-![Customer Overview](Images/OnlineRetailSalesDashboard/Customer%20Overview.png)
+![Customer Overview](Images/Online%20Retail%20Sales%20Dashboard/Customer%20Overview.png)
 
 ### Product Performance
 
-![Product Performance](Images/OnlineRetailSalesDashboard/Product%20Performance.png)
+![Product Performance](Images/Online%20Retail%20Sales%20Dashboard/Product%20Performance.png)
 
 ### Sales Forecasting
 
-![Sales Forecasting](Images/OnlineRetailSalesDashboard/Sales%20Forecasting.png)
+![Sales Forecasting](Images/Online%20Retail%20Sales%20Dashboard/Forecasting.png)
 
 ---
 
@@ -134,14 +134,6 @@ https://archive.ics.uci.edu/dataset/502/online+retail+ii
 - Monitored monthly sales trends and seasonal behaviour.
 - Implemented sales forecasting using Power BI Forecast Analytics.
 - Built an interactive dashboard for business decision-making.
-
----
-
-## 📄 Project File
-
-```
-Online Retail Sales Dashboard.pbix
-```
 
 ---
 
