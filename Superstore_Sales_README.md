@@ -460,47 +460,6 @@ Dataset source:
 
 https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
----
-
-## Repository Structure
-
-```text
-Superstore-Power-BI-Dashboard/
-│
-├── README.md
-├── Superstore Dashboard.pbix
-├── Dataset/
-│   └── Sample - Superstore.csv
-├── Images/
-│   └── Superstore Dashboard/
-│       ├── Landing Page.png
-│       ├── Executive Overview.png
-│       ├── Product Performance.png
-│       ├── Regional Analysis.png
-│       ├── Customer Analysis.png
-│       ├── Discount and Profitability.png
-│       ├── Shipping Analysis.png
-│       ├── Sales Forecasting.png
-│       └── Predictive Analytics.png
-└── Python/
-    └── profit_prediction.py
-```
-
----
-
-## How to Use the Report
-
-1. Open `Superstore Dashboard.pbix` in Power BI Desktop.
-2. Use the landing page to access each analytical dashboard.
-3. Apply slicers to filter the report by region, category, segment, ship mode, discount band, or risk group.
-4. Click chart elements to cross-filter the remaining visuals.
-5. Hover over visuals to view additional tooltip information.
-6. Use the Reset button to restore the page's initial state.
-7. Review the Forecasting page for future sales patterns.
-8. Review the Predictive Analytics page for profit predictions and high-risk transactions.
-
----
-
 ## Business Insights Supported
 
 The completed dashboard helps users:
@@ -521,6 +480,6 @@ The completed dashboard helps users:
 
 ## Author
 
-**[Your Name]**
+**Srija Biswas**
 
 If this project is useful, consider giving the repository a ⭐.
