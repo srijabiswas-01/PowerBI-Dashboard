@@ -88,7 +88,7 @@ Main features:
 - Product-level Discount and Margin Analysis
 - Dynamic Product Insights
 
-![Product Performance]
+![Product Performance](Images/Superstore%20Dashboard/Product%20Performance.png)
 
 ### 4. Regional Analysis
 
