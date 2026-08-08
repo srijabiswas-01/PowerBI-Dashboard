@@ -31,7 +31,6 @@ Additional previews: [Customer Overview](Images/Online%20Retail%20Sales%20Dashbo
 - [Detailed project documentation](Online-Retail-Sales-Dashboard-README.md)
 - [Source dataset](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
 - Local workbook: `Retail/online+retail+ii/online_retail_II.xlsx`
-- Dashboard walkthrough: `Retail/Sales Dashbaord Video.mp4`
 
 ## Superstore Sales and Predictive Analytics Dashboard
 
@@ -61,7 +60,6 @@ Additional previews: [Product Performance](Images/Superstore%20Dashboard/Product
 - [Detailed project documentation](Supermarket_Sales_README.md)
 - [Source dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 - Local dataset: `Supermarket Sales/Superstore Data.csv`
-- Dashboard walkthrough: `Supermarket Sales/Superstore Dashboard.mp4`
 
 ## Technical Approach
 
