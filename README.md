@@ -75,35 +75,6 @@ Across the two projects, the solutions demonstrate:
 - Time-series sales forecasting with confidence intervals
 - Python, pandas, and scikit-learn integration for predictive modelling
 
-## Repository Structure
-
-```text
-Power BI/
-|-- Online Retail Sales Dashboard.pbix
-|-- Supermarket Sales Dashboard.pbix
-|-- Online-Retail-Sales-Dashboard-README.md
-|-- Supermarket_Sales_README.md
-|-- Images/
-|   |-- Online Retail Sales Dashboard/
-|   `-- Superstore Dashboard/
-|-- Retail/
-|   |-- online+retail+ii/
-|   `-- Sales Dashbaord Video.mp4
-`-- Supermarket Sales/
-    |-- Superstore Data.csv
-    `-- Superstore Dashboard.mp4
-```
-
-## How to Use
-
-1. Install [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-2. Download or clone this repository.
-3. Open the relevant `.pbix` report in Power BI Desktop.
-4. If Power BI requests a data-source update, point the report to the corresponding local Excel or CSV file listed above.
-5. Use the report's slicers, navigation controls, and reset buttons to explore the analysis.
-
-The Superstore predictive workflow may require a local Python environment with `pandas`, `scikit-learn`, and `matplotlib` if its Python-based queries are refreshed.
-
 ## Tools and Technologies
 
 - Microsoft Power BI Desktop
